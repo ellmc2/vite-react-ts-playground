@@ -1,7 +1,12 @@
 {
-  "name": "vite-react-ts-playground",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@ellmc2/vite-react-ts-playground",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellmc2/vite-react-ts-playground.git"
+  },
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -24,5 +29,17 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "bugs": {
+    "url": "https://github.com/ellmc2/vite-react-ts-playground/issues"
+  },
+  "homepage": "https://github.com/ellmc2/vite-react-ts-playground#readme",
+  "main": "dist/index.html",
+  "keywords": [
+    "vite",
+    "react",
+    "typescript"
+  ],
+  "author": "ellmc2"
 }

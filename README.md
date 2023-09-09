@@ -31,3 +31,10 @@ If you are developing a production application, we recommend updating the config
 ```bash
 pnpm create vite vite-react-ts-playground --template react-ts
 ```
+
+## 发布项目
+
+```bash
+npm publish --access public
+```
+
